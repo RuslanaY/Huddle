@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+}
+
+body h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+header {
+  min-height: 194px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  a {
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ff52c1;
+    border: 1px solid #ff52c1;
+    border-radius: 40px;
+    padding: 9px 30px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+  }
+
+  a:hover {
+    color: #FF8ED7;
+    border: 1px solid #ff8ed7
+  }
+}
+
+section {
+  margin: auto;
+  padding-top: 122px;
+}
+
+.mockup {
+  text-align: center;
+  max-width: 1017px;
+  margin-bottom: 120px;
+
+}
+
+.title,
+.ready {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  color: #00252e;
+}
+
+.mockup p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #00252e;
+  padding: 0 209px;
+  margin-bottom: 49px;
+}
+
+.mockup img {
+  width: 1016px;
+  height: 720px;
+}
+
+.mockup div a,
+.ready div a {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  border: 1px solid #ff52c1;
+  border-radius: 40px;
+  padding: 9px 30px;
+  text-decoration: none;
+  box-shadow: 0 6px 13px 0 rgba(0, 37, 46, 0.22);
+  background-color: #ff52c1;
+  margin-bottom: 120px;
+  transition: background-color 0.5s ease;
+
+}
+
+.mockup div a:hover,
+.ready div a:hover {
+  background-color: #FF8ED7;
+  border: 1px solid #FF8ED7;
+}
+
+.community {
+  display: flex;
+  justify-content: space-between;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 297px;
+}
+
+.community .img {
+  width: 56px;
+  height: 56px;
+}
+
+.community div h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 150%;
+  color: #00252e;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.community div p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #808e9a;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.together,
+.conversations,
+.users {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  flex-wrap: wrap;
+
+}
+
+.together img,
+.conversations img,
+.users img {
+  width: 517px;
+  height: 423px;
+}
+
+.together div h2,
+.conversations div h2,
+.users div h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #00252e;
+}
+
+.together div,
+.conversations div,
+.users div {
+  max-width: 520px;
+}
+
+.together div p,
+.conversations div p,
+.users div p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #00252e;
+
+}
+
+.together {
+  background-image: url('images/Path6.png');
+  fill: #f6fbff;
+  min-height: 841px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 221px;
+}
+
+
+.conversations {
+  margin-bottom: 140px;
+}
+
+.users {
+  background-image: url('images/Path5.png');
+  fill: #f6fbff;
+  min-height: 792px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 237px;
+}
+
+
+.ready {
+  text-align: center;
+  margin-bottom: 178px;
+
+}
+
+.ready h2 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #00252E;
+  margin-bottom: 42px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 340px;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-image: url(./images/Path4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .contact {
+    padding-top: 251px;
+  }
+
+  .contact p {
+    color: #FFFFFF;
+    width: 340px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+
+
+  }
+
+  a.icon {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: block;
+    padding-bottom: 16px;
+
+  }
+
+  a.icon img {
+    margin-right: 16px;
+    color: #FFFFFF;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  ul li {
+    display: inline-block;
+    padding-top: 48px;
+    padding-right: 24px;
+  }
+
+  ul li a img {
+    transition: filter 0.3s ease;
+    font-size: 0;
+  }
+
+  ul li a:hover img {
+    filter: invert(48%) sepia(99%) saturate(2325%) hue-rotate(182deg) brightness(105%) contrast(100%);
+  }
+
+  .news {
+    width: 344px;
+  }
+
+  .news h3 {
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+  }
+
+  .news p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+  }
+
+  .form {
+    width: 520px;
+    padding-top: 251px;
+  }
+
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form-container input[type="email"] {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 320px;
+    height: 48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #00252E;
+    padding: 14px 16px;
+  }
+
+  .form-container button {
+    width: 160px;
+    height: 48px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #FF52C1;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .form-container button:hover {
+    background-color: #FF8ED7;
+  }
+}
